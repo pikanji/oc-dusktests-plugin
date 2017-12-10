@@ -1,5 +1,5 @@
 {
-    "name": "pikanji/oc-dusktests-plugin",
+    "name": "pikanji/dusktests-plugin",
     "type": "october-plugin",
     "description": "Enables to write test using Laravel's Dusk test framework.",
     "license": "MIT",
