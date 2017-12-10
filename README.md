@@ -33,7 +33,7 @@ In the plugins directory of your project, create `pikanji` directory and simply 
 cd plugins
 mkdir pikanji
 cd pikanji
-git clone git@github.com:pikanji/oc-dusktests-plugin.git
+git clone git@github.com:pikanji/oc-dusktests-plugin.git dusktests
 ```
 
 

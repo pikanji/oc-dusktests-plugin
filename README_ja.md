@@ -31,7 +31,7 @@ composer update
 cd plugins
 mkdir pikanji
 cd pikanji
-git clone git@github.com:pikanji/oc-dusktests-plugin.git
+git clone git@github.com:pikanji/oc-dusktests-plugin.git dusktests
 ```
 
 
