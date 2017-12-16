@@ -23,9 +23,11 @@ Laravel Dusk テストフレームワークを[OctoberCMS](http://octobercms.com
 プロジェクトルートから下記を実行します。
 ```
 composer update
+php artisan dusk:install
 ```
 
 #### 手動でGit Clone
+依存関係はcomposerでインストールする必要がありますが、本プラグイン自体はプロジェクトのcomposer.jsonを変更せずにインストールすることもできます。
 プロジェクトの `plugins` ディレクトリに `pikanji` ディレクトリを作成し、その中で `git clone` でソースコードを取得します。
 ```
 cd plugins
@@ -34,6 +36,11 @@ cd pikanji
 git clone git@github.com:pikanji/oc-dusktests-plugin.git dusktests
 ```
 
+プロジェクトルートから下記を実行します。
+```
+composer update
+php artisan dusk:install
+```
 
 ### テストの実行
 Duskについてくるサンプルテスト(`tests/Browser/ExampleTest.php`)を実行してDuskのセットアップをテストできます。

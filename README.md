@@ -25,9 +25,11 @@ Add below to the composer.json of your project.
 Execute below at the root of your project.
 ```
 composer update
+php artisan dusk:install
 ```
 
 #### Manual Git Clone
+Although composer is still required to install dependencies, you can install this plugin without adding it to your composer.json.
 In the plugins directory of your project, create `pikanji` directory and simply execute `git clone` in it.
 ```
 cd plugins
@@ -36,6 +38,11 @@ cd pikanji
 git clone git@github.com:pikanji/oc-dusktests-plugin.git dusktests
 ```
 
+Execute below at the root of your project.
+```
+composer update
+php artisan dusk:install
+```
 
 ### Executing Tests
 Dusk comes with example test (`tests/Browser/ExampleTest.php`). You can test setup by running this test.
