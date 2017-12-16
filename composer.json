@@ -16,8 +16,10 @@
     },
     "autoload": {
         "classmap": [
-            "traits/CreatesApplication.php",
-            "../../../tests/DuskTestCase.php"
-        ]
+            "traits/CreatesApplication.php"
+        ],
+        "psr-4": {
+            "Tests\\": "../../../tests/"
+        }
     }
 }
