@@ -14,7 +14,7 @@ Laravel Dusk テストフレームワークを[OctoberCMS](http://octobercms.com
 プロジェクトのcomposer.jsonに下記を追加してください。
 ```
 {
-    "require": [
+    "require-dev": [
         ...
         "pikanji/dusktests-plugin": "dev-master"
     ],

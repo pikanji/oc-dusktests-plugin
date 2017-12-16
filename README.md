@@ -16,7 +16,7 @@ Installation options are;
 Add below to the composer.json of your project.
 ```
 {
-    "require": [
+    "require-dev": [
         ...
         "pikanji/dusktests-plugin": "dev-master"
     ],
