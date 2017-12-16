@@ -13,18 +13,10 @@ Installation options are;
 
 
 #### With Composer
-Add below to the composer.json of your project.
-```
-{
-    "require-dev": [
-        ...
-        "pikanji/dusktests-plugin": "dev-master"
-    ],
-```
 
-Execute below at the root of your project.
+Execute below at the root of your project:
 ```
-composer update
+composer require --dev pikanji/dusktests-plugin
 php artisan dusk:install
 ```
 
