@@ -11,18 +11,9 @@ Laravel Dusk テストフレームワークを[OctoberCMS](http://octobercms.com
 
 
 #### Composer
-プロジェクトのcomposer.jsonに下記を追加してください。
-```
-{
-    "require-dev": [
-        ...
-        "pikanji/dusktests-plugin": "dev-master"
-    ],
-```
-
 プロジェクトルートから下記を実行します。
 ```
-composer update
+composer require --dev pikanji/dusktests-plugin
 php artisan dusk:install
 ```
 
