@@ -1,5 +1,5 @@
 plugin:
-    name: 'pikanji.dusktests:plugin.name'
+    name: 'pikanji.dusktests::plugin.name'
     description: 'pikanji.dusktests::plugin.description'
     author: 'pikanji.dusktests::plugin.author'
     homepage: 'https://coderwall.com/pikanji'
